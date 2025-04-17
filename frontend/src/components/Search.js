@@ -1,6 +1,5 @@
-import React from "react";
-import { Form, Button } from "react-bootstrap";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 const Search = ({ word, setWord, handleSubmit }) => {
   return (
     <Container className="mt-4">
@@ -26,7 +25,7 @@ const Search = ({ word, setWord, handleSubmit }) => {
         </Col>
       </Row>
     </Container>
-  );
-};
+  )
+}
 
-export default Search;
+export default Search
